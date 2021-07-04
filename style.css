@@ -84,3 +84,12 @@ h2 {
 footer p {
     text-align: center;
 }
+
+#h3-top {
+    font-size: 35px;
+}
+
+#ex-main {
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
