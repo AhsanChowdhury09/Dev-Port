@@ -7,11 +7,21 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 35px;
+}
+
+.experiences {
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 #name {
     color: red;
 }
 
-section {
+.flex-cont {
     display: flex;
     margin-bottom: 80px;
 }
@@ -43,4 +53,34 @@ section {
     background-image: url(Images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.ex-color {
+    color: orangered;
+}
+
+.item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    padding-right: 3px;
+    border-radius: 2%;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#ex1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(Tomato, Salmon);
+    border-image-slice: 1;
+}
+
+#ex2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
